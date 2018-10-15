@@ -84,9 +84,9 @@ $(document).ready( function() {
         nav.slideToggle(200);
 
         if ( $('.js--mobile-nav ion-icon').attr('name') === "menu" ) {
-            $('ion-icon').attr('name', 'close');
+            $('.js--mobile-nav ion-icon').attr('name', 'close');
         } else {
-            $('ion-icon').attr('name', 'menu');
+            $('.js--mobile-nav ion-icon').attr('name', 'menu');
         }
     });
 
